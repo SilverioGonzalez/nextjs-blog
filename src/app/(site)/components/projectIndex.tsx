@@ -21,7 +21,7 @@ export default async function ProjectIndex (){
                             <img src={urlFor(project.coverImage).width(800).height(400).url()} />
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold">{project.title}</h3>
-                                <p className="tracking-tight">{project.shortDescription}</p>
+                                <p className="pt-2 tracking-tight">{project.shortDescription}</p>
                                 <div className="py-4 flex items-center">
                                     <div className="pb-1 pr-4 scale-125">
                                         <FaArrowRight />
