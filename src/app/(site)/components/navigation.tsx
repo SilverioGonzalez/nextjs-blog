@@ -51,18 +51,21 @@ export default function Navigation() {
       >
         <menu className="text-xl">
           <div onClick={handleNav}>
-          <li className="p-4 text-3xl hover:text-violet-400">
-            <Link href="/services">Services</Link>
-          </li>
-          <li className="p-4 text-3xl hover:text-violet-400">
-            <Link href="/projects">Projects</Link>
-          </li>
-          <li className="p-4 text-3xl hover:text-violet-400">
-            <Link href="/articles">Articles</Link>
-          </li>
-          <li className="p-4 text-3xl hover:text-violet-400">
-            <Link href="/about">About</Link>
-          </li>
+            <li className="p-4 text-3xl hover:text-violet-400">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="p-4 text-3xl hover:text-violet-400">
+              <Link href="/services">Services</Link>
+            </li>
+            <li className="p-4 text-3xl hover:text-violet-400">
+              <Link href="/projects">Projects</Link>
+            </li>
+            <li className="p-4 text-3xl hover:text-violet-400">
+              <Link href="/articles">Articles</Link>
+            </li>
+            <li className="p-4 text-3xl hover:text-violet-400">
+              <Link href="/about">About</Link>
+            </li>
           </div>
           <div>
             <SocialLinks />
