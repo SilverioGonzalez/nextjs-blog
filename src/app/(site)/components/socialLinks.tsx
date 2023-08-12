@@ -12,7 +12,7 @@ export default function SocialLinks () {
             </li>
             <li className="px-2 hover:scale-110 ease-in duration-300">
               {/* add a real email address*/}
-              <SocialIcon url="mailto:place.holder@gmail.com" bgColor="#a78bfa" /> 
+              <SocialIcon url="mailto:silveriogonzalezdigital@gmail.com" bgColor="#a78bfa" /> 
             </li>       
           </ul>
     )
