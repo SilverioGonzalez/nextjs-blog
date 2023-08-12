@@ -4,7 +4,7 @@ import SocialProof from "../../components/socialProofBlock";
 
 export default function about () {
     return (
-        <main className="min-h-screen p-24">
+        <main className="min-h-screen px-4 md:px-12 lg:px-20">
             <section>
                 <div>
                     <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">

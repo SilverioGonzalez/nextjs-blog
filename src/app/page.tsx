@@ -6,9 +6,9 @@ import FeaturedProjects from "./(site)/components/featuredProjectBlock";
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-4 md:px-12 lg:px-20">
+    <main className="min-h-screen px-4 md:px-12 lg:px-20">
 
-        <section className="p-4">
+        <section className="py-4">
           <div className="text-5xl font-bold md:text-8xl lg:text-9xl">
             <h1>Making digital <span className="text-violet-400">strategy</span> more human</h1>
             <div className="border-b-2 py-4"></div>
@@ -24,19 +24,19 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="p-4 py-8">
+        <section className="py-12">
           <div><p className="font-bold text-4xl pb-12">Featured projects and case studies</p></div>
           <FeaturedProjects />
         </section>
 
-        <section className="p-4 py-8">
+        <section className="py-12">
           <div className="grid lg:grid-cols-2 gap-8">
             <AboutDescription />
             <ServiceDescription />
           </div>
         </section>
         {/* 
-        <section className="p-4 py-12">
+        <section className="py-12">
           <SocialProof />
         </section>
         */}
