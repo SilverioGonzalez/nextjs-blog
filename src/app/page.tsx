@@ -13,8 +13,11 @@ export default function Home() {
             <h1>Making digital <span className="text-violet-400">strategy</span> more human</h1>
             <div className="border-b-2 py-4"></div>
            </div>
+           {/* hidden main image for home page */}
+           <div className="hidden">
+            <img src= "https://cdn.sanity.io/images/yxdcfe0l/production/1a59f429517e340447c21a27411405bce02734d8-1200x628.png" />
+           </div>
 
-          
           <div className="py-4">
             <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">Solving content and information problems</h2>
           </div>
