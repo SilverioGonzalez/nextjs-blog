@@ -5,7 +5,7 @@ import FeatruedArticles from "../../components/featuredArticles";
 
 export default function ArticlePage () {
     return (
-        <main className="min-h-screen p-24">
+        <main className="min-h-screen sm:px-4 lg:p-24">
             <div>
                 <div>
                     <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">
