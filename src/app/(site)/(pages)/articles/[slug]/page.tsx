@@ -26,7 +26,7 @@ export default async function SlugPage({
         <main className="px-4">
             <div className="sm:px-24 lg:px-64">
                 <div>
-                <h1 className="text-5xl font-bold py-8">{data.title}</h1>
+                <h1 className="hidden text-5xl font-bold py-8">{data.title}</h1>
                 </div>
                 <div>
                     <h2 className="py-4 text-xl font-bold">{data.overview}</h2>
