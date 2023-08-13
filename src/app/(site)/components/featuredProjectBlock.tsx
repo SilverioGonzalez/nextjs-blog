@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import { client } from "../lib/sanity"
 import { urlFor } from "../lib/sanityImageUrl";
