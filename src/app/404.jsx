@@ -1,7 +1,7 @@
-
+'use client'
 export default function Custom404(){
     return (
-        <h1>test</h1>
+        <h1>I'm sorry. The page you requested can't be found.</h1>
     )
 
 }
