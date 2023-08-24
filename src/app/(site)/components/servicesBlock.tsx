@@ -21,7 +21,7 @@ export default async function ServicesBlock() {
                 <div className="p-8">
                 <Link href={`/services/${service.slug.current}`} prefetch>
                     <h2 className="text-4xl text-violet-400 font-bold">{service.title}</h2>
-                    <p className="text-lg pt-1">{service.overview}
+                    <p className="text-lg tracking-tight pt-1">{service.overview}
                     </p>
                     <div className="py-4 flex items-center">
                     <div className="pb-1 pr-4 scale-125">

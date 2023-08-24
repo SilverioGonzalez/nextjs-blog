@@ -7,7 +7,7 @@ export default function AboutDescription() {
         <div className="border h-full border-gray-600 hover:scale-105  duration-300 hover:shadow-lg hover:shadow-violet-400">
           <div className="p-8">
             <h2 className="text-4xl font-bold">Hi, I'm Silverio.</h2>
-            <p className="pt-1 text-lg">I'm a content strategist and information architect who takes a human-centered approach 
+            <p className="pt-1 tracking-tight text-lg">I'm a content strategist and information architect who takes a human-centered approach 
                   to problem solving.
             </p>
             <div className="py-4 flex items-center">

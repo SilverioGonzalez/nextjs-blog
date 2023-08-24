@@ -19,8 +19,8 @@ export default async function SocialProof(){
             <li key={person._id}>
                 <div className="p-8 grid border h-full border-gray-600 shadow-md shadow-violet-400">
                     <div>
-                        <p>{person.endorsement}</p>
-                        <p>— {person.name}, {person.title}</p>   
+                        <p className="tracking-tight">{person.endorsement}</p>
+                        <p className="tracking-tight">— {person.name}, {person.title}</p>   
                     </div>
                 </div>
             </li>
