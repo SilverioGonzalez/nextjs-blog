@@ -12,7 +12,7 @@ export default function about () {
                     </h1>    
                     <div className="border-b-2 py-4"></div>
                     <div className="py-4">
-                        <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">My experince and values</h2>                
+                        <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">My experience and values</h2>                
                     </div>
                 </div>
             </section>
