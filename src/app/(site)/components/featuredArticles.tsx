@@ -16,7 +16,7 @@ export default async function FeatruedArticles (){
             {data.map((article)=> (
                 <div key={article._id}>
                     <Link href={`/articles/${article.slug.current}`} prefetch>
-                        <div className="border h-full border-gray-600 hover:scale-105 duration-300 hover:shadow-lg hover:shadow-violet-400 lg:pr-24 ">
+                        <div className="border h-full hover:scale-105 duration-300 hover:shadow-lg hover:shadow-violet-400 lg:pr-24 ">
                             {/*<img src={urlFor(article.coverImage).width(800).height(400).url()} />*/}
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold">{article.title}</h3>

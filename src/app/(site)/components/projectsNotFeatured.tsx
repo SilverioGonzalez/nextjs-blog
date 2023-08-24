@@ -17,7 +17,7 @@ export default async function ProjectsNotFeatured (){
             {data.map((project)=> (
                 <div key={project._id}>
                     <Link href={`/projects/${project.slug.current}`} prefetch>
-                        <div className="border h-full border-gray-600 hover:scale-105 align-bottom duration-300 hover:shadow-lg hover:shadow-violet-400">
+                        <div className="border h-full hover:scale-105 align-bottom duration-300 hover:shadow-lg hover:shadow-violet-400">
                             <img src={urlFor(project.coverImage).width(800).height(400).url()} />
                             <div className="p-8">
                                 <h3 className="hidden text-3xl font-bold">{project.title}</h3>

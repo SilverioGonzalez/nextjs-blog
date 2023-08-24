@@ -3,6 +3,7 @@ import SocialLinks from "./(site)/components/socialLinks";
 import AboutDescription from "./(site)/components/aboutDescription";
 import ServiceDescription from "./(site)/components/serviceDescription";
 import FeaturedProjects from "./(site)/components/featuredProjectBlock";
+import ScheduleMeeting from "./(site)/components/scheduleMeeting";
 
 export default function Home() {
   return (
@@ -36,6 +37,9 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-8">
             <AboutDescription />
             <ServiceDescription />
+          </div>
+          <div>
+            <ScheduleMeeting />
           </div>
         </section>
         {/* 

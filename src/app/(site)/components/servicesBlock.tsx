@@ -17,7 +17,7 @@ export default async function ServicesBlock() {
         <div key={service._id}>
           <div className="p-4 py-8">
             <div>
-              <div className="border h-full border-gray-600 hover:scale-105 duration-300 hover:shadow-lg hover:shadow-violet-400">
+              <div className="border h-full hover:scale-105 duration-300 hover:shadow-lg hover:shadow-violet-400">
                 <div className="p-8">
                 <Link href={`/services/${service.slug.current}`} prefetch>
                     <h2 className="text-4xl text-violet-400 font-bold">{service.title}</h2>

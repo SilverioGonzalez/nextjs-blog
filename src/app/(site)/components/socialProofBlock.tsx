@@ -17,7 +17,7 @@ export default async function SocialProof(){
         <ul className="grid lg:grid-cols-2 gap-8">
             {data.map((person)=> (
             <li key={person._id}>
-                <div className="p-8 grid border h-full border-gray-600 shadow-md shadow-violet-400">
+                <div className="p-8 grid border h-full shadow-md shadow-violet-400">
                     <div>
                         <p className="tracking-tight">{person.endorsement}</p>
                         <p className="tracking-tight">— {person.name}, {person.title}</p>   

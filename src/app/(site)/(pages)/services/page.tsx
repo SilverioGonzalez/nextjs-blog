@@ -3,6 +3,7 @@ import ServiceOverview from "../../components/serviceOverviewBlock";
 import ServicesBlock from "../../components/servicesBlock";
 import SocialLinks from "../../components/socialLinks";
 import SocialProof from "../../components/socialProofBlock";
+import ScheduleMeeting from "../../components/scheduleMeeting";
 
 export default function ServicesPage () {
     return (
@@ -14,7 +15,7 @@ export default function ServicesPage () {
                     </h1>    
                     <div className="border-b-2 py-4"></div>
                     <div className="py-4">
-                        <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">Solutions to content and information problems</h2>                
+                        <h2 className="font-bold text-4xl  md:text-5xl lg:text-6xl">Solutions to content and information problems</h2>                
                     </div>
                 </div>
             </section>
@@ -27,6 +28,7 @@ export default function ServicesPage () {
 
             <section className="py-8">
                 <ServiceOverview />
+                <ScheduleMeeting />
             </section>
 
             <section className="py-4">

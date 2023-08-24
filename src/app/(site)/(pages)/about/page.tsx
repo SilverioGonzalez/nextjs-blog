@@ -1,4 +1,5 @@
 import AboutMeContent from "../../components/aboutMeContent";
+import ScheduleMeeting from "../../components/scheduleMeeting";
 import SocialLinks from "../../components/socialLinks";
 import SocialProof from "../../components/socialProofBlock";
 
@@ -25,6 +26,7 @@ export default function about () {
             
             <section className="py-12">
                 <AboutMeContent />
+                <ScheduleMeeting />
             </section>
             {/* 
             <section className="p-4 py-12">

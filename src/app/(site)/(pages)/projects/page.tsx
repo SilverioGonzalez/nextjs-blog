@@ -1,6 +1,7 @@
 import FeaturedProjects from "../../components/featuredProjectBlock";
 import SocialLinks from "../../components/socialLinks";
 import ProjectsNotFeatured from "../../components/projectsNotFeatured";
+import ScheduleMeeting from "../../components/scheduleMeeting";
 
 
 export default function projects () {
@@ -31,6 +32,7 @@ export default function projects () {
                 <div className="py-8">
                     <FeaturedProjects />
                 </div>
+                <ScheduleMeeting />
             </section>
 
             {/*

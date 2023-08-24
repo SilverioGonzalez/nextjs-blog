@@ -1,5 +1,6 @@
 
 import { RichTextComponents } from "@/app/(site)/components/RichTextComponents";
+import ScheduleMeeting from "@/app/(site)/components/scheduleMeeting";
 import SocialLinks from "@/app/(site)/components/socialLinks";
 import {Article} from "@/app/(site)/lib/interface";
 import { client } from "@/app/(site)/lib/sanity";
@@ -34,8 +35,8 @@ export default async function SlugPage({
                 <div className="">
                     <PortableText value={data.content} components={RichTextComponents}/>
                 </div>
-                <div className="py-8">
-                    <SocialLinks />
+                <div >
+                    <ScheduleMeeting />
                 </div>  
             </div> 
         </main>
