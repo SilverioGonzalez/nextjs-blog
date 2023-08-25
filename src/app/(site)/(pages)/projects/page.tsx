@@ -1,7 +1,7 @@
-import FeaturedProjects from "../../components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
-import SocialLinks from "../../components/(CallToActionComponents)/socialLinks";
-import ProjectsNotFeatured from "../../components/(projectAndCaseStudiesBlocks)/projectsNotFeatured";
-import ScheduleMeeting from "../../components/(CallToActionComponents)/scheduleMeeting";
+import FeaturedProjects from "../../../components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
+import SocialLinks from "../../../components/(CallToActionComponents)/socialLinks";
+import ProjectsNotFeatured from "../../../components/(projectAndCaseStudiesBlocks)/projectsNotFeatured";
+import ScheduleMeeting from "../../../components/(CallToActionComponents)/scheduleMeeting";
 
 
 export default function projects () {

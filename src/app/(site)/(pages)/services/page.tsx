@@ -1,9 +1,9 @@
 
-import ServiceOverview from "../../components/(servicesBlocks)/serviceOverviewBlock";
-import ServicesBlock from "../../components/(servicesBlocks)/servicesBlock";
-import SocialLinks from "../../components/(CallToActionComponents)/socialLinks";
-import SocialProof from "../../components/(aboutBlocks)/socialProofBlock";
-import ScheduleMeeting from "../../components/(CallToActionComponents)/scheduleMeeting";
+import ServiceOverview from "../../../components/(servicesBlocks)/serviceOverviewBlock";
+import ServicesBlock from "../../../components/(servicesBlocks)/servicesBlock";
+import SocialLinks from "../../../components/(CallToActionComponents)/socialLinks";
+import SocialProof from "../../../components/(aboutBlocks)/socialProofBlock";
+import ScheduleMeeting from "../../../components/(CallToActionComponents)/scheduleMeeting";
 
 export default function ServicesPage () {
     return (

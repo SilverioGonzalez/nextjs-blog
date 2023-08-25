@@ -43,7 +43,7 @@ export const RichTextComponents = {
       <p className="py-2 text-lg">{children}</p> 
     ),
     blockquote: ({ children }: any) =>(
-      <blockquote className="py-2 text-lg">{children}</blockquote>
+      <blockquote className="py-2 px-4 bg-black text-lg">{children}</blockquote>
     ),
   },
   marks: {

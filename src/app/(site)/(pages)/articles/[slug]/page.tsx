@@ -1,9 +1,9 @@
 
-import { RichTextComponents } from "@/app/(site)/components/(CMSComponents)/RichTextComponents";
-import ScheduleMeeting from "@/app/(site)/components/(CallToActionComponents)/scheduleMeeting";
-import SocialLinks from "@/app/(site)/components/(CallToActionComponents)/socialLinks";
-import {Article} from "@/app/(site)/lib/interface";
-import { client } from "@/app/(site)/lib/sanity";
+import { RichTextComponents } from "@/app/components/(CMSComponents)/RichTextComponents";
+import ScheduleMeeting from "@/app/components/(CallToActionComponents)/scheduleMeeting";
+import SocialLinks from "@/app/components/(CallToActionComponents)/socialLinks";
+import {Article} from "@/app/lib/interface";
+import { client } from "@/app/lib/sanity";
 import { PortableText } from "@portabletext/react";
 
 
