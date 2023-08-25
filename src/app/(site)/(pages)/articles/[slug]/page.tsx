@@ -26,20 +26,15 @@ export default async function SlugPage({
     return (
         <main className="px-4">
             <div className="sm:px-24 lg:px-64">
+                <h1 className="text-5xl font-bold py-8">{data.title}</h1>
                 <div>
-                <h1 className="hidden text-5xl font-bold py-8">{data.title}</h1>
-                </div>
-                <div>
-                    <h2 className="py-4 text-xl font-bold">{data.overview}</h2>
-                </div>
-                <div className="">
                     <PortableText value={data.content} components={RichTextComponents}/>
                 </div>
-                <div >
+                <div>
                     <ScheduleMeeting />
                 </div>  
             </div> 
         </main>
-    )
+        )
 }
    
