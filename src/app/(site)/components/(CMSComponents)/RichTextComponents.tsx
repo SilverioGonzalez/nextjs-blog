@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { urlFor } from "../lib/sanityImageUrl";
+import { urlFor } from "../../lib/sanityImageUrl";
 import Link from "next/link";
 
 
@@ -48,14 +48,14 @@ export const RichTextComponents = {
   },
   marks: {
     link: ({ children, value }: any) => {
-      const rel = !value.href.startWith("/")
+      const rel = !value.href.startsWith("/")
         ? "noreferrer noopener"
         : undefined;
 
       return (
         <Link href={value.href}
         rel={rel}
-        className=""
+        className="underline decoration-violet-400 hover:text-violet-400"
       >
         {children}</Link>
           

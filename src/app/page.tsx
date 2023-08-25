@@ -1,9 +1,9 @@
-import SocialProof from "./(site)/components/socialProofBlock";
-import SocialLinks from "./(site)/components/socialLinks";
-import AboutDescription from "./(site)/components/aboutDescription";
-import ServiceDescription from "./(site)/components/serviceDescription";
-import FeaturedProjects from "./(site)/components/featuredProjectBlock";
-import ScheduleMeeting from "./(site)/components/scheduleMeeting";
+import SocialProof from "./(site)/components/(aboutBlocks)/socialProofBlock";
+import SocialLinks from "./(site)/components/(CallToActionComponents)/socialLinks";
+import AboutDescription from "./(site)/components/(aboutBlocks)/aboutDescription";
+import ServiceDescription from "./(site)/components/(servicesBlocks)/serviceDescription";
+import FeaturedProjects from "./(site)/components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
+import ScheduleMeeting from "./(site)/components/(CallToActionComponents)/scheduleMeeting";
 
 export default function Home() {
   return (

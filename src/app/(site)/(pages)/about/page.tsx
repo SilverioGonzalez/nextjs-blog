@@ -1,7 +1,7 @@
-import AboutMeContent from "../../components/aboutMeContent";
-import ScheduleMeeting from "../../components/scheduleMeeting";
-import SocialLinks from "../../components/socialLinks";
-import SocialProof from "../../components/socialProofBlock";
+import AboutMeContent from "../../components/(aboutBlocks)/aboutMeContent";
+import ScheduleMeeting from "../../components/(CallToActionComponents)/scheduleMeeting";
+import SocialLinks from "../../components/(CallToActionComponents)/socialLinks";
+import SocialProof from "../../components/(aboutBlocks)/socialProofBlock";
 
 export default function about () {
     return (

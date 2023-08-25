@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { client } from "../lib/sanity"
-import { urlFor } from "../lib/sanityImageUrl";
-import { Project } from "../lib/interface";
+import { client } from "../../lib/sanity"
+import { urlFor } from "../../lib/sanityImageUrl";
+import { Project } from "../../lib/interface";
 import { FaArrowRight } from "react-icons/fa6";
 
 async function getData() {

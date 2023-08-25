@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Article } from "../lib/interface";
-import { client } from "../lib/sanity"
-import { urlFor } from "../lib/sanityImageUrl";
+import { Article } from "../../lib/interface";
+import { client } from "../../lib/sanity"
+import { urlFor } from "../../lib/sanityImageUrl";
 import { FaArrowRight } from "react-icons/fa6";
 
 async function getData() {
@@ -10,16 +10,14 @@ async function getData() {
     return data;
 }
 
-export default async function ArticleFeed (){
+export default async function ArticleIndex (){
     const data = await getData() as Article[];
     return(
-        <section>
-            <div>
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {data.map((article)=> (
-                    <div key={article._id}>
-                       <Link href={`/articles/${article.slug.current}`} prefetch>
-                        <div className="border h-full hover:scale-105 duration-300 hover:shadow-lg hover:shadow-violet-400">
+        <div className="grid grid-cols-1 gap-8 sm:px-4 md:px-4 lg:pr-96">
+            {data.map((article)=> (
+                <div key={article._id}>
+                    <Link href={`/articles/${article.slug.current}`} prefetch>
+                        <div className="border h-full hover:scale-105 duration-300 hover:shadow-lg hover:shadow-violet-400 lg:pr-24 ">
                             {/*<img src={urlFor(article.coverImage).width(800).height(400).url()} />*/}
                             <div className="p-8">
                                 <h3 className="text-3xl font-bold">{article.title}</h3>
@@ -33,11 +31,9 @@ export default async function ArticleFeed (){
                                  </div>     
                             </div>
                         </div>
-                        </Link> 
-                    </div>
-                ))}
+                    </Link> 
                 </div>
-            </div>
-        </section>
+            ))}
+        </div>      
     )
 }

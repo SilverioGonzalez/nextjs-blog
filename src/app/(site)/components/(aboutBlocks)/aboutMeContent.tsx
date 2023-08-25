@@ -1,8 +1,8 @@
 import {PortableText} from '@portabletext/react'
-import { UiContent } from "../lib/interface";
-import { client } from "../lib/sanity";
-import { RichTextComponents } from './RichTextComponents';
-import { urlFor } from '../lib/sanityImageUrl';
+import { UiContent } from "../../lib/interface";
+import { client } from "../../lib/sanity";
+import { RichTextComponents } from '../(CMSComponents)/RichTextComponents';
+import { urlFor } from '../../lib/sanityImageUrl';
 
 
 

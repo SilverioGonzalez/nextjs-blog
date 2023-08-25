@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Article } from "../lib/interface";
-import { client } from "../lib/sanity"
+import { Article } from "../../lib/interface";
+import { client } from "../../lib/sanity"
 import { FaArrowRight } from "react-icons/fa6";
 
 async function getData() {

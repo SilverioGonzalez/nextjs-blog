@@ -1,5 +1,5 @@
-import SocialLinks from "../../components/socialLinks";
-import FeatruedArticles from "../../components/featuredArticles";
+import SocialLinks from "../../components/(CallToActionComponents)/socialLinks";
+import FeatruedArticles from "../../components/(articleBlocks)/featuredArticles";
 
 
 export default function ArticlePage () {

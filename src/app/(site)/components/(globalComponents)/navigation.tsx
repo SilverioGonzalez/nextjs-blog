@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, {useState} from 'react';
 import {AiOutlineMenu} from 'react-icons/ai';
 import {AiOutlineClose} from 'react-icons/ai';
-import SocialLinks from './socialLinks';
+import SocialLinks from '../(CallToActionComponents)/socialLinks';
 
 export default function Navigation() {
     const [nav, setNavigation] = useState(false)

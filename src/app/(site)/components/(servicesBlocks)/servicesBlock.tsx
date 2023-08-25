@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa6";
-import { client } from "../lib/sanity"
-import { Service } from "../lib/interface";
+import { client } from "../../lib/sanity"
+import { Service } from "../../lib/interface";
 
 async function getData() {
     const query = `*[_type == "service"]`;

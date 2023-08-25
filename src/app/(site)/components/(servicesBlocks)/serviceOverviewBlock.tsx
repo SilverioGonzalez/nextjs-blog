@@ -1,7 +1,7 @@
 import {PortableText} from '@portabletext/react'
-import { UiContent } from "../lib/interface";
-import { client } from "../lib/sanity";
-import { RichTextComponents } from './RichTextComponents';
+import { UiContent } from "../../lib/interface";
+import { client } from "../../lib/sanity";
+import { RichTextComponents } from '../(CMSComponents)/RichTextComponents';
 
 
 

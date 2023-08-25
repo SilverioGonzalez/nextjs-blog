@@ -1,6 +1,6 @@
-import { Person } from "../lib/interface";
-import { client } from "../lib/sanity"
-import { urlFor } from "../lib/sanityImageUrl";
+import { Person } from "../../lib/interface";
+import { client } from "../../lib/sanity"
+import { urlFor } from "../../lib/sanityImageUrl";
 
 async function getData() {
     const query = `*[_type == "person" && socialProof == true && featuredSocialProof == true]`;

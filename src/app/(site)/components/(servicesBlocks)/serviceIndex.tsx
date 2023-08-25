@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { client } from "../lib/sanity"
-import { Service } from "../lib/interface";
-import { urlFor } from "../lib/sanityImageUrl";
+import { client } from "../../lib/sanity"
+import { Service } from "../../lib/interface";
+import { urlFor } from "../../lib/sanityImageUrl";
 
 async function getData() {
     const query = `*[_type == "service"]`;
