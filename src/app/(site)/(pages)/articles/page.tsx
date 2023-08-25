@@ -1,4 +1,3 @@
-import ArticleIndex from "@/app/(site)/components/articleIndex";
 import SocialLinks from "../../components/socialLinks";
 import FeatruedArticles from "../../components/featuredArticles";
 
@@ -25,7 +24,7 @@ export default function ArticlePage () {
 
             <section className="py-12">
                 <div className="py-8">
-                    <ArticleIndex />
+                    <FeatruedArticles />
                 </div> 
             </section>
 
