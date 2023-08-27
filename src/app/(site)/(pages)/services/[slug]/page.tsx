@@ -30,6 +30,7 @@ export default async function SlugPage({
             </div>
             <div>
                 <ScheduleMeeting />
+                <div>{data.relatedService}</div>
             </div>
         </div> 
     )
