@@ -9,7 +9,7 @@ export default function ScheduleMeeting() {
           <Link href="https://calendly.com/silverio-web-contact/office-hours">
             <button className="bg-violet-400 hover:scale-105  duration-300">
                 <p className="p-4 tracking-tight text-black text-lg">
-                  Schedule a free meeting
+                  Schedule a meeting
                 </p>
             </button>
           </Link>
