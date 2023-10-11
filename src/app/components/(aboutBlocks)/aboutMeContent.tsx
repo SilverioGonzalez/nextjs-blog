@@ -23,7 +23,7 @@ export default async function AboutMeContent(){
                         <div className=" py-8 grid grid-cols-3 content-center">
                             <div></div>
                             <div>
-                                {<img src={urlFor(data.coverImage).width(300).height(400).url()} />}
+                                {<img src={urlFor(data.coverImage).width(300).height(300).url()} />}
                             </div>
                             <div></div>
                         </div>
