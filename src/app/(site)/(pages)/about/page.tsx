@@ -7,14 +7,14 @@ export default function about () {
     return (
         <main className="min-h-screen px-4 md:px-12 lg:px-20">
             <section className="pt-4">
-                <div>
-                    <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">
+                <div className="text-5xl font-bold md:text-8xl lg:text-9xl">
+                    <h1>
                         <span className="text-violet-400">About</span>
-                    </h1>    
-                    <div className="border-b-2 py-4"></div>
-                    <div className="py-4">
-                        <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">My experience and values</h2>                
-                    </div>
+                    </h1>
+                </div>
+                <div className="border-b-2 py-4"></div>
+                <div className="font-bold text-4xl md:text-5xl lg:text-6xl">
+                    <h2>My experience and values</h2>                
                 </div>
             </section>
 

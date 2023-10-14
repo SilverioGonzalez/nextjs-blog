@@ -12,7 +12,7 @@ export default function ArticlePage () {
                     </h1>    
                     <div className="border-b-2 py-4"></div>
                     <div className="py-4">
-                        <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">Thoughts about content strategy, information architecture, and technology</h2>                
+                        <h2 className="font-bold text-4xl md:text-5xl lg:text-6xl">Reflections on purpose, possibility, and strategy</h2>                
                     </div>
                 </div> 
             </section>
