@@ -35,9 +35,6 @@ export default function Home() {
             <AboutDescription />
             <ServiceDescription />
           </div>
-          <div>
-            <ScheduleMeeting />
-          </div>
         </section>
         {/* 
         <section className="py-12">

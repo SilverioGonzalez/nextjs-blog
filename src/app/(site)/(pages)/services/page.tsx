@@ -28,7 +28,6 @@ export default function ServicesPage () {
 
             <section className="py-8">
                 <ServiceOverview />
-                <ScheduleMeeting />
             </section>
 
             <section className="py-4">

@@ -26,7 +26,6 @@ export default function about () {
             
             <section className="py-12">
                 <AboutMeContent />
-                <ScheduleMeeting />
             </section>
             {/* 
             <section className="p-4 py-12">

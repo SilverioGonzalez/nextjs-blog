@@ -32,7 +32,6 @@ export default function projects () {
                 <div className="py-8">
                     <FeaturedProjects />
                 </div>
-                <ScheduleMeeting />
             </section>
 
             {/*
