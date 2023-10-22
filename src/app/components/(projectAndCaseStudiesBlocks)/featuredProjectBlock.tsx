@@ -10,7 +10,7 @@ async function getData() {
     return data;
 }
 
-export default async function FeaturedProjects (){
+export default async function FeaturedWorkSamples (){
     const data = await getData() as Project[];
     return(
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

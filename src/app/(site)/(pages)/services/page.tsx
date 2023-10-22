@@ -7,7 +7,9 @@ import ScheduleMeeting from "../../../components/(CallToActionComponents)/schedu
 
 export default function ServicesPage () {
     return (
+   
         <main className="min-h-screen px-4 md:px-12 lg:px-20">
+             {/* 
             <section className="pt-4">
                 <div>
                     <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">
@@ -39,13 +41,9 @@ export default function ServicesPage () {
                 </div>
             </section>
             
-             {/* 
-            <section className="p-4 py-12">
-            <SocialProof />
-            </section>
-            */}
 
-
+        */}
         </main>
+    
     )
 }

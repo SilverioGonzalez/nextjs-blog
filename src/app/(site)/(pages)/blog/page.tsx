@@ -2,13 +2,14 @@ import SocialLinks from "../../../components/(CallToActionComponents)/socialLink
 import FeatruedArticles from "../../../components/(articleBlocks)/featuredArticles";
 
 
-export default function ArticlePage () {
+export default function BlogPage () {
     return (
         <main className="min-h-screen px-4 md:px-12 lg:px-20">
+        {/* 
             <section className="pt-4">
                 <div>
                     <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">
-                        <span className="text-violet-400">Articles</span>
+                        <span className="text-violet-400">Blog</span>
                     </h1>    
                     <div className="border-b-2 py-4"></div>
                     <div className="py-4">
@@ -21,14 +22,6 @@ export default function ArticlePage () {
                     <SocialLinks />
                 </div>
             </section>
-
-            <section className="py-12">
-                <div className="py-8">
-                    <FeatruedArticles />
-                </div> 
-            </section>
-
-            {/*
 
             <section className="py-12">
                 <p className="font-bold text-4xl">

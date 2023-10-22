@@ -28,9 +28,6 @@ export default async function SlugPage({
             <div>
                 <PortableText value={data.content} components={RichTextComponents}/>
             </div>
-            <div>
-                <ScheduleMeeting />
-            </div>  
         </div> 
     </main>
     )

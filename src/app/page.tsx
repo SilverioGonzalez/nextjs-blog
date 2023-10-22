@@ -1,9 +1,9 @@
 import SocialProof from "./components/(aboutBlocks)/socialProofBlock";
 import SocialLinks from "./components/(CallToActionComponents)/socialLinks";
-import AboutDescription from "./components/(aboutBlocks)/aboutDescription";
 import ServiceDescription from "./components/(servicesBlocks)/serviceDescription";
 import FeaturedProjects from "./components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
 import ScheduleMeeting from "./components/(CallToActionComponents)/scheduleMeeting";
+import AboutDescription from "./components/(aboutBlocks)/aboutDescription";
 
 export default function Home() {
   return (
@@ -25,19 +25,25 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-12">
+        <section className="py-4">
+            <AboutDescription />
+        </section>
+
+        <section className="py-4">
           <div><p className="font-bold text-4xl pb-12">Featured projects and case studies</p></div>
           <FeaturedProjects />
         </section>
-
-        <section className="py-12">
+        
+      {/* 
+        <section className="py-4">
           <div className="grid lg:grid-cols-2 gap-8">
             <AboutDescription />
             <ServiceDescription />
           </div>
         </section>
+         */}
         {/* 
-        <section className="py-12">
+        <section className="py-4">
           <SocialProof />
         </section>
         */}
