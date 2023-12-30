@@ -4,13 +4,13 @@ import ScheduleMeeting from "../../../components/(CallToActionComponents)/schedu
 import FeaturedWorkSamples from "@/app/components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
 
 
-export default function WorkSamples () {
+export default function Projects () {
     return (
         <main className="min-h-screen px-4 md:px-12 lg:px-20">
             <section className="pt-4">
                 <div>
                     <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">
-                        <span className="text-violet-400">Work Samples</span>
+                        <span className="text-violet-400">Projects</span>
                     </h1>    
                     <div className="border-b-2 py-4"></div>
                     <div className="py-4">

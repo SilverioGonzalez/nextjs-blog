@@ -22,7 +22,7 @@ export default function Navigation() {
       <div className="flex">
         <menu className="hidden sm:flex text-xl">
           <li className="p-4 hover:text-violet-400">
-            <Link href="/work-samples">Work samples</Link>
+            <Link href="/projects">Projects</Link>
           </li>
           <li className="p-4 hover:text-violet-400">
             <Link href="/experience">Experience</Link>
