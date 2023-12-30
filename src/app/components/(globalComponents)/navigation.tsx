@@ -49,7 +49,7 @@ export default function Navigation() {
               <Link href="/">Home</Link>
             </li>
             <li className="p-4 text-3xl hover:text-violet-400">
-              <Link href="/work-samples">Work samples</Link>
+              <Link href="/projects">Projects</Link>
             </li>
             <li className="p-4 text-3xl hover:text-violet-400">
               <Link href="/experience">Experience</Link>
