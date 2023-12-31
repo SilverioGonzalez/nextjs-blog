@@ -10,13 +10,13 @@ async function getData() {
     return data;
 }
 
-export default async function FeaturedWorkSamples (){
+export default async function FeaturedProjectsBlock (){
     const data = await getData() as Project[];
     return(
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {data.map((project)=> (
                 <div key={project._id}>
-                    <Link href={`/projects/${project.slug.current}`} prefetch>
+                    <Link href={`/case-studies/${project.slug.current}`} prefetch>
                         <div className="border h-full hover:scale-105 align-bottom duration-300 hover:shadow-lg hover:shadow-violet-400">
                             <img src={urlFor(project.coverImage).width(800).height(400).url()} />
                             <div className="p-8">

@@ -8,7 +8,7 @@ export default function AboutDescription() {
             <p className="pt-2 pb-4 tracking-tight text-lg">I'm a digital strategist who takes a human-centered approach 
                   to problem solving.
             </p>
-          <Link href="/experience">
+          <Link href="/about">
             <button className="bg-violet-400 hover:scale-105  duration-300">
                 <p className="p-4 tracking-tight text-black text-lg">
                   About me

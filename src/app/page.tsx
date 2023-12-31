@@ -26,7 +26,7 @@ export default function Home() {
         </section>
 
         <section className="py-4">
-            <AboutDescription />
+          <ServiceDescription />
         </section>
 
         <section className="py-4">
@@ -34,14 +34,10 @@ export default function Home() {
           <FeaturedProjects />
         </section>
         
-      {/* 
         <section className="py-4">
-          <div className="grid lg:grid-cols-2 gap-8">
             <AboutDescription />
-            <ServiceDescription />
-          </div>
         </section>
-         */}
+        
         {/* 
         <section className="py-4">
           <SocialProof />

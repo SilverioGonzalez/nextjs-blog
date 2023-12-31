@@ -22,10 +22,13 @@ export default function Navigation() {
       <div className="flex">
         <menu className="hidden sm:flex text-xl">
           <li className="p-4 hover:text-violet-400">
-            <Link href="/projects">Projects</Link>
+            <Link href="/case-studies">Case Studies</Link>
           </li>
           <li className="p-4 hover:text-violet-400">
-            <Link href="/experience">Experience</Link>
+            <Link href="/services">Services</Link>
+          </li>
+          <li className="p-4 hover:text-violet-400">
+            <Link href="/about">About</Link>
           </li>
         </menu>
       </div>
@@ -49,10 +52,13 @@ export default function Navigation() {
               <Link href="/">Home</Link>
             </li>
             <li className="p-4 text-3xl hover:text-violet-400">
-              <Link href="/projects">Projects</Link>
+              <Link href="/case-studies">Case Studies</Link>
             </li>
             <li className="p-4 text-3xl hover:text-violet-400">
-              <Link href="/experience">Experience</Link>
+              <Link href="/services">Services</Link>
+            </li>
+            <li className="p-4 text-3xl hover:text-violet-400">
+              <Link href="/about">About</Link>
             </li>
           </div>
           <div>

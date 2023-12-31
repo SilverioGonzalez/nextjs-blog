@@ -1,16 +1,14 @@
-import SocialLinks from "../../../components/(CallToActionComponents)/socialLinks";
-import ProjectsNotFeatured from "../../../components/(projectAndCaseStudiesBlocks)/projectsNotFeatured";
-import ScheduleMeeting from "../../../components/(CallToActionComponents)/scheduleMeeting";
-import FeaturedWorkSamples from "@/app/components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
+import SocialLinks from "@/app//components/(CallToActionComponents)/socialLinks";
+import FeaturedProjectsBlock from "@/app/components/(projectAndCaseStudiesBlocks)/featuredProjectBlock";
 
 
-export default function Projects () {
+export default function CaseStudiesPage () {
     return (
         <main className="min-h-screen px-4 md:px-12 lg:px-20">
             <section className="pt-4">
                 <div>
                     <h1 className="text-5xl font-bold md:text-8xl lg:text-9xl">
-                        <span className="text-violet-400">Projects</span>
+                        <span className="text-violet-400">Case Studies</span>
                     </h1>    
                     <div className="border-b-2 py-4"></div>
                     <div className="py-4">
@@ -27,13 +25,9 @@ export default function Projects () {
             
             <section className="py-12">
                 <div className="py-8">
-                    <FeaturedWorkSamples />
+                    <FeaturedProjectsBlock />
                 </div>
             </section>
-
-           
-            
-            
 
         </main>
     )
