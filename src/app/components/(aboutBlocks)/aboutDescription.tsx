@@ -1,21 +1,25 @@
 import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function AboutDescription() {
     return (
-      <div className="py-8">
-        <div className="border p-8">
-        <h2 className="text-4xl font-bold">Hi, I'm Silverio.</h2>
-            <p className="pt-2 pb-4 tracking-tight text-lg">I'm a digital strategist who takes a human-centered approach 
+      <Link href="/about/">
+        <div className="border h-full hover:scale-105  duration-300 hover:shadow-lg hover:shadow-violet-400">
+          <div className="p-8">
+            <h2 className="text-4xl font-bold">Hi, I'm Silverio.</h2>
+            <p className="pt-1 tracking-tight text-lg">I'm a content strategist and information architect who takes a human-centered approach 
                   to problem solving.
             </p>
-          <Link href="/about">
-            <button className="bg-violet-400 hover:scale-105  duration-300">
-                <p className="p-4 tracking-tight text-black text-lg">
-                  About me
-                </p>
-            </button>
-          </Link>
+            <div className="py-4 flex items-center">
+              <div className="pb-1 pr-4 scale-125">
+                <FaArrowRight />
+              </div>
+              <p>About me</p> 
+            </div> 
+          </div>
         </div>
-      </div>
+      </Link>
+
+      
     )
 }

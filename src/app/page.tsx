@@ -26,17 +26,17 @@ export default function Home() {
         </section>
 
         <section className="py-4">
-          <ServiceDescription />
+          <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-8">
+            <AboutDescription />
+            <ServiceDescription />
+          </div>  
         </section>
 
         <section className="py-4">
           <div><p className="font-bold text-4xl pb-12">Featured projects and case studies</p></div>
           <FeaturedProjects />
         </section>
-        
-        <section className="py-4">
-            <AboutDescription />
-        </section>
+        <div className="py-4"></div>
         
         {/* 
         <section className="py-4">
