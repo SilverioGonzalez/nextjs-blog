@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function ServiceDescription(){
     return (
     
-      <Link href="/about/">
+      <Link href="/services/">
       <div className="border h-full hover:scale-105  duration-300 hover:shadow-lg hover:shadow-violet-400">
         <div className="p-8">
           <h2 className="text-4xl font-bold">My Services</h2>
