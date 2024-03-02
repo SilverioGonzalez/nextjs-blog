@@ -27,7 +27,7 @@ export default function ServicesPage () {
                     <SocialLinks />
                 </div>
             </section>
-
+{/*
             <section className="py-8">
                 <ServiceOverview />
             </section>
@@ -40,7 +40,14 @@ export default function ServicesPage () {
                     <ServicesBlock />
                 </div>
             </section>
+
+            */}
             
+            <section className="py-4">
+                <div className="py-4">
+                    <ServicesBlock />
+                </div>
+            </section>
 
         
         </main>
